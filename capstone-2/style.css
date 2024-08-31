@@ -1,0 +1,124 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+header{
+    background-color:#e4f9f5 ;
+    padding: 40px 40px 0px 40px;
+    height: 594px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding-top: 100px;
+   
+    
+}
+h1 {
+    text-align: center;
+    color: #66bfbf;
+    font-family: "Cedarville Cursive", cursive;
+
+    font-size: 50px;
+    padding-top: 10px ;
+}
+h2{
+    text-align: center;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif ;
+    font-size: 30px;
+}
+span{
+    text-decoration: underline;
+    
+
+}
+.cloud-1{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    z-index: 0;
+}
+.cloud-2{
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    z-index: 0;
+}
+img {
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        
+}
+
+.profile{
+    border-radius: 50%;
+}
+.second-sec{
+    padding: 100px;
+}
+hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+.third-sec {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    
+}
+.third-sec div{
+    display: block;
+}
+p{
+    font-size: 1.2rem;
+    color: rgb(129, 131, 131);
+}
+h3{
+    font-size: 1.5rem;
+    color: #66bfbf;
+}
+button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #11cdd4;
+    color: white;
+    border-radius: 5px;
+
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+button:hover{
+    background-image: linear-gradient(to bottom, #11999e, #11cdd4);
+    cursor: pointer;
+
+}
+footer{
+    background-color: #66bfbf;
+    padding: 20px;
+    
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color:#80e6e6 ;}
